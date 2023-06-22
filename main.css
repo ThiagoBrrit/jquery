@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body{
+    background-color: rgb(190, 209, 209);
+}
+
+header{
+    padding: 24px 0;
+    color: rgb(3, 0, 0);
+    display: flex;
+    border-bottom: 16px solid rgb(48, 48, 47);
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+header button{
+    margin-left: 16px;
+}
+
+form{
+    background-color: rgb(152, 161, 167);
+    padding: 24px 0;
+    text-align: center;
+    display: none;
+}
+
+form h2{
+    margin-bottom: 16px;
+}
+
+input, button{
+    padding: 8px;
+}
+
+button{
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(247, 247, 247);
+}
+
+#cancelar{
+    background-color: red;
+    color: black;
+    font-weight: bold;
+}
+
+#cadastrar{
+    background-color: rgb(163, 199, 133);
+    color: rgb(19, 17, 17);
+}
+
+
+
+ul li{
+    text-align: center;
+}
+
+table a{
+    text-decoration: line-through;
+}
+
+.subtarefa{
+    cursor: pointer;
+}
+
+.concluido{
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+
+
+
